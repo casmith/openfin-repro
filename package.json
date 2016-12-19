@@ -1,0 +1,32 @@
+{
+  "name": "frost-openfin-repro",
+  "version": "0.0.1",
+  "description": "OpenFin Micro Repro for Child Window Behavior",
+  "engines": {
+    "node": ">=0.12.7",
+    "npm": "^2.11.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify app.js -o bundle.js",
+    "bundle.watch": "watchify app.js -o bundle.js",
+    "openfin": "node scripts/openfin.js",
+    "//prestart": "npm run bundle",
+    "start": "http-server"
+  },
+  "author": "Clayton Smith <clayton.smith@macquarie.com",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "cuid": "^1.3.8",
+    "domready": "^1.0.8",
+    "jquery": "^3.1.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "http-server": "^0.9.0",
+    "openfin-launcher": "^1.3.7",
+    "watchify": "^3.8.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "frost-openfin-repro",
+        "uuid": "frost-openfin-repro",
+        "url": "http://localhost:8080",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "alpha"
+    },
+    "shortcut": {
+        "company": "Macquarie ",
+        "description": "OpenFin Child Window Issue Repro",
+        "name": "OpenFin Test"
+    }
+}
